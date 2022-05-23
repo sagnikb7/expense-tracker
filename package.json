@@ -4,8 +4,7 @@
   "description": "Automatic expense tracking tool",
   "main": "server.js",
   "scripts": {
-    "lint": "eslint 'src/**/*.js?(x)' --fix",
-    "prepare": "husky install"
+    "lint": "eslint 'src/**/*.js?(x)' --fix"
   },
   "author": "Sagnik B",
   "license": "ISC",
