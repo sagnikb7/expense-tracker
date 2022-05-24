@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "checkJs": true,
+      "baseUrl": ".",
+      "paths": {
+        "@app": ["src/app.js"],
+        "@logger": ["src/core/logger.js"],
+        "@middlewares/*": ["src/middlewares/*"],
+      }
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+  }

@@ -17,6 +17,7 @@
     "express": "^4.18.1",
     "helmet": "^5.1.0",
     "joi": "^17.6.0",
+    "module-alias": "^2.2.2",
     "mongoose": "^6.3.4",
     "winston": "^3.7.2"
   },
@@ -26,5 +27,10 @@
     "eslint-plugin-import": "^2.26.0",
     "husky": "^8.0.1",
     "nodemon": "^2.0.16"
+  },
+  "_moduleAliases": {
+    "@app": "./src/app.js",
+    "@logger": "./src/core/logger.js",
+    "@middlewares": "./src/middlewares"
   }
 }
